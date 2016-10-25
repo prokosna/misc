@@ -9,3 +9,9 @@ $ sudo /opt/logstash/bin/plugin install logstash-output-amazon_es
 NOTE: plugin is deprecated. use logstash-plugin instead.
 
 (Reference)[http://dev.classmethod.jp/cloud/aws/amazon-es-using-logstash-plugin/]
+
+- setting
+
+```
+$ sudo mv collectd.conf /etc/logstash/conf.d/collectd.conf
+```
